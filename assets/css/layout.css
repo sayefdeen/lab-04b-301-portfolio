@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 19pt;
+  font-weight: 300;
+  line-height: 1.75em;
+  color: #888;
+}
+
+input,
+textarea,
+select {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 19pt;
+  font-weight: 300;
+  line-height: 1.75em;
+  color: #888;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  color: #666;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 2em;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+header {
+  margin: 0 0 2em 0;
+}
+
+footer {
+  margin: 2em 0 0 0;
+}
+
+strong,
+b {
+  font-weight: 300;
+  color: #666;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+  -moz-transition: color 0.35s ease-in-out,
+    border-bottom-color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out,
+    border-bottom-color 0.35s ease-in-out;
+  -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  outline: 0;
+}
+
+sub {
+  position: relative;
+  top: 0.5em;
+  font-size: 0.8em;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px #ddd;
+}
+
+blockquote {
+  border-left: solid 0.5em #ddd;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
+
+p,
+ul,
+ol,
+dl,
+table {
+  margin-bottom: 2em;
+}
+
+section,
+article {
+  margin-bottom: 3em;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+ul li {
+  padding-left: 0.5em;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 1.25em;
+}
+
+ol li {
+  padding-left: 0.25em;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+form textarea {
+  min-height: 14em;
+}
+table {
+  width: 100%;
+  text-align: left;
+}
